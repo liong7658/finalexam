@@ -1,0 +1,43 @@
+body{
+	background-image: url(christmas.jpg);
+	background-repeat: no-repeat;
+	background-position:all;
+	font-family: Comic Sans MS;
+}
+form{
+	text-align: center;
+	background-color: darkgray;
+	margin: 5% 30%;
+	padding:3px 25px 25px 25px;
+}
+table{
+	display: flex;
+	justify-content: center;
+	color: black;
+	text-align: left;
+	font-size: 18px;
+
+}
+.header{
+	color: black;
+	font-size: 20px;
+}
+.header h1{
+	color: red;
+}
+button{
+	font-size: 20px;
+	padding: 5px 8px;
+	border-style: none;
+	background-color: lime;
+	border-radius: 10px;
+}
+button:hover{
+	background-color: dodgerblue;
+	color: white;
+}
+@media screen and (max-width: 800px) {
+	form{
+		width: 100%
+	}
+}

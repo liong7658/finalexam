@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Merry Christmas</title>
+	<link rel="stylesheet" type="text/css" href="LQ2.css">
+	<link rel="stylesheet" type="text/css" href="LQ2.js">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+	<form name="form1" method="post" action="mailto:liongjessy@gmail.com" enctype="text/plain" onsubmit="return validate();">
+		<div class="header">
+			<div><h1><u>Secret Santa</u></h1></div>
+			Did you want the christmas present?<br>
+			You can tell me!! <br>
+			I wish you Merry Christmas~<br>
+		</div>
+		<table>
+			<tr>
+				<td>What's your name:</td>
+				<td><input type="name" name="name"></td>
+			</tr>
+			<tr>
+				<td>How about your age:</td>
+				<td><input type="number" name="age"></td>
+			</tr>
+			<tr>
+				<td>What is your favourite present?</td>
+				<td><input type="text" name="present"></td>
+			</tr>
+			<tr>
+				<td>What color is your mostly like?</td>
+				<td><input type="text" name="color"></td>
+			</tr>
+			<tr>
+				<td colspan="2">Is there anything you want to tell me?<br><textarea rows="4" cols="55" name="tellme"></textarea></td>
+			</tr>
+		</table>
+		<button type="submit">Submit</button>
+	</form>
+
+</body>
+</html>
