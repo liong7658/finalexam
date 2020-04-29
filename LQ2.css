@@ -45,4 +45,7 @@ button:hover{
 	table td{
 		width: 100px;
 	}
+	table input{
+		width: 100px;
+	}
 }
